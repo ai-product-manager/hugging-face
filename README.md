@@ -1,3 +1,5 @@
+[![Sync to Hugging Face hub](https://github.com/ai-product-manager/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/ai-product-manager/hugging-face/actions/workflows/main.yml)
+
 ---
 title: Hi
 emoji: 🌖
