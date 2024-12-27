@@ -14,8 +14,4 @@ with gr.Blocks() as demo:
     textbox = gr.Textbox(placeholder="Enter text block to summarize", lines=4)
     gr.Interface(fn=predict, inputs=textbox, outputs="text")
 
-# create an interface for the model
-with gr.Interface(predict, "textbox", "text") as interface:
-    interface.launch()
-
-interface.launch()
+demo.launch()
