@@ -22,4 +22,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force git@hf.co:spaces/ai-product-manager/demo main
+        run: git push --force https://ai-product-manager:$HF@huggingface.co/spaces/ai-product-manager/demo main
